@@ -1,0 +1,18 @@
+---
+---
+
+/* prettier-ignore */
+@use 'main
+{%- if jekyll.environment == 'production' -%}
+  .bundle
+{%- endif -%}
+';
+
+/* append your custom style below */
+a {
+    color: #E47F27
+}
+
+a:hover {
+    color: #FF912D
+}
