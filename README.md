@@ -4,16 +4,16 @@ Welcome to the GitHub repo for my blog, bentleysec.com, a space where **Detectio
 
 This blog documents my journey building and experimenting with a full Detection Engineering lab environment. It’s part technical reference, part personal log, and part creative outlet.
 
-## What You’ll Find Here
+## 📚 What You’ll Find Here
 
-### Detection Engineering
+### 🔍 Detection Engineering
 - Designing and tuning detection rules  
 - Automating deployments with CI/CD pipelines  
 - Integrating threat intelligence into actionable detections  
 - Fighting false positives (and false negatives)  
 - Building processes that can survive real-world chaos  
 
-### Lab Experiments
+### 🧪 Lab Experiments
 I work hands-on with tools like:
 - **OpenCTI**
 - **MISP**
@@ -25,7 +25,7 @@ I work hands-on with tools like:
 
 These are tested, broken, reconfigured, and documented so you can follow along — or avoid my mistakes.
 
-### Musings & Side Quests
+### ✏️ Musings & Side Quests
 Not everything here is pure security engineering. Expect:
 - Thoughts on learning, creativity, and problem-solving  
 - Small side projects and experiments
