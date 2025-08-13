@@ -10,7 +10,7 @@ mermaid: true
 
 All things have a beginning, before I start racking servers and spinning up VMs, I wanted to put my plan on paper; or in this case, in a blog post. This is my blueprint for a security-focused home lab: a space where I can experiment with detection engineering, dive into OS internals, and learn how to identify and investigate attacker behavior.
 
-The lab isn’t online yet. This is the design stage—the “how everything should fit together” map before I start building. I want a clear direction before I start wiring cables and configuring dashboards.
+The lab isn’t online yet. This is the design stage, the “how everything should fit together” map before I start building. I want a clear direction before I start.
 
 My goal is to create an environment that lets me study not just the tools, but also the data, processes, and workflows that turn raw logs into actionable detections.
 
@@ -18,16 +18,16 @@ My goal is to create an environment that lets me study not just the tools, but a
 My learning path is divided into four interconnected pillars:
 
 1. Detection Engineering
-I want to go beyond “install SIEM, write alert” and truly understand the craft of designing, testing, tuning, and automating detection rules. That means experimenting with Detection-as-Code practices, version control, CI/CD pipelines for rules, and tracking detection coverage against known threats.
+I want to go beyond “install SIEM, use default alerts” and truly understand the craft of designing, testing, tuning, and automating detection rules. That means experimenting with Detection-as-Code practices, version control, CI/CD pipelines for rules, and tracking detection coverage against known threats.
 
 2. Linux Logging & Internals
-Linux often plays the role of server, gateway, or attacker playground in real-world environments. I’m exploring tools like auditd, syslog, journald, and endpoint telemetry to see what’s possible, what’s noisy, and what’s missing. Along the way, I’m learning how the kernel handles processes, files, and network activity and where the best hooks for detection really are.
+Linux often plays the vital role of server, gateway, or attacker playground in real-world environments. I’m exploring tools like auditd, syslog, journald, and endpoint telemetry to see what’s possible, what’s noisy, and what’s missing. Along the way, I’m learning how the kernel handles processes, files, and network activity and where the best hooks for detection really are.
 
 3. Windows Logging & Internals
 Windows endpoints and servers are rich with telemetry, if you know how to collect it. I’m digging into Event IDs, PowerShell logging, Sysmon configurations, and the subtleties of security auditing. The goal is to understand both the strengths and blind spots of Windows logging, and how attacker tradecraft fits into that picture.
 
 4. Attacker Techniques
-A big part of detection is understanding the “why” and “how” behind an attacker’s actions. I’ll be designing simulations for common techniques—from credential dumping to living-off-the-land—and mapping how they appear in logs across different systems.
+A big part of detection is understanding the “why” and “how” behind an attacker’s actions. I’ll be designing simulations for common techniques, from credential dumping to living-off-the-land—and mapping how they appear in logs across different systems.
 
 ### Lab Strategy
 
