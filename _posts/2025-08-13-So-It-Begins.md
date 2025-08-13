@@ -48,5 +48,5 @@ Over the next posts, I’ll walk through:
 - How I’ll simulate attacker techniques to validate detections.
 - The integrations that will connect my SIEM, SOAR, and threat intel tools into a cohesive workflow.
 
-This is my blueprint stage—where ideas are still flexible and improvements can be made before I write a single line of config. By the time I’m done building, I’ll have both a functional home lab and a documented path others can adapt for their own learning.
+This is my blueprint stage where ideas are still flexible and improvements can be made. By the time I’m done building, I’ll have both a functional home lab and a documented path others can adapt for their own learning.
 
