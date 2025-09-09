@@ -10,7 +10,7 @@ mermaid: true
 
 In part 1 we installed Elastic, OpenCTI, and MISP. Now we are going to take a look at Velociraptor, Shuffle, and Gitlab.
 
-### Velocirpator
+### Velociraptor
 For endpoint forensics and hunting, I’ll install Velociraptor. The server will sit on its own VM, and later I’ll deploy agents across my test endpoints to simulate a real enterprise environment. <a href="https://docs.velociraptor.app/docs/deployment/quickstart/">Here</a> is the official documentation.
 
 ### Shuffle 

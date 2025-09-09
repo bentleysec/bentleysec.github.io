@@ -70,7 +70,7 @@ sudo /usr/share/elasticsearch/bin/elasticsearch-reset-password -i -u elastic
 {: .prompt-info }
 
 #### Fleet Server Setup
-In order to use the Elastic agents you need to install the Fleet Server. Once logged into the platform navigate to Management - > Fleet. When you add a Fleet server put in the IP of your VM (it adds port 8220 automatically). Elastic will then create an Agent Policy for you to install the Fleet Server Agent. Elastic will then give you the commands to install the agent, I just install it on the VM which runs Elastic.
+In order to use the Elastic agents you need to install the Fleet Server. Once logged into the platform navigate to Management - > Fleet. When you add a Fleet server put in the IP of your VM (it adds port 8220 automatically), for example `https://192.168.0.10`. Elastic will then create an Agent Policy for you to install the Fleet Server Agent. Elastic will then give you the commands to install the agent, I just install it on the VM which runs Elastic.
 
 ### OpenCTI
 OpenCTI runs on docker, <a href="https://docs.opencti.io/latest/deployment/installation/">here</a> are the official directions. Clone the repo:
@@ -78,6 +78,9 @@ OpenCTI runs on docker, <a href="https://docs.opencti.io/latest/deployment/insta
 git clone https://github.com/OpenCTI-Platform/docker.git
 cd docker
 ```
+
+> If you plan to use the API and use a self signed cert (we will, as Elastic uses the API to pull in indicators), you need to add the following line to your docker compose file under the opencti environment variables `- APP__GRAPHQL__PLAYGROUND__FORCE_DISABLED_INTROSPECTION=false`
+{: .prompt-info }
 
 Next, create the `.env` file. The official documentation has this handy example to quickly generate it:
 ```shell
