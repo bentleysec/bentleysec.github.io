@@ -11,7 +11,7 @@ mermaid: true
 Here is a curated list of vulnerable docker containers to hone your skills. 
 - Web Application Vulnerable Containers
   - <a href="https://github.com/digininja/DVWA">DVWA</a> – Damn Vulnerable Web App (PHP/MySQL).
-  - <a href="http://www.itsecgames.com/">bWAPP</a> – Buggy Web Application, covers 100+ web vulnerabilities.
+  - <a href="https://www.itsecgames.com/">bWAPP</a> – Buggy Web Application, covers 100+ web vulnerabilities.
   - <a href="https://github.com/webpwnized/mutillidae-docker">Mutillidae II</a> – OWASP Top 10 training target, lots of exercises.
   - <a href="https://github.com/juice-shop/juice-shop">OWASP Juice Shop</a> – Modern vulnerable app built on Node.js/Angular; includes gamified challenges.
   - <a href="https://github.com/WebGoat/WebGoat">WebGoat (OWASP)</a> – Java-based app with lessons for OWASP Top 10.
