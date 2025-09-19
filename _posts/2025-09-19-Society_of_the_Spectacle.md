@@ -43,7 +43,7 @@ As security practitioners, it’s important to ask: when are we building systems
 ### Eternal Present and Cybersecurity Hype Cycles
 Debord warned that the spectacle flattens time into an eternal present. The past becomes commodified nostalgia; the future becomes just another marketing pitch. In cybersecurity, this looks like the endless hype cycle: zero-days and “paradigm-shifting” technologies flash across headlines, only to be replaced by the next shiny object.
 
-Ransomware is yesterday’s crisis, AI is today’s, quantum is tomorrow’s. Each emerges as spectacle, amplified by vendors and media alike. But the underlying systemic problems, poor logging, weak patch management, lack of secure design—remain unchanged, quietly ignored beneath the churn.
+Ransomware is yesterday’s crisis, AI is today’s, quantum is tomorrow’s. Each emerges as spectacle, amplified by vendors and media alike. But the underlying systemic problems, poor logging, weak patch management, lack of secure design; remain unchanged, quietly ignored beneath the churn.
 
 ### Cracks in the Spectacle
 Debord believed the spectacle could be resisted by reclaiming real experiences and situations. In technology and security, this might mean resisting the abstraction by getting closer to systems themselves:
