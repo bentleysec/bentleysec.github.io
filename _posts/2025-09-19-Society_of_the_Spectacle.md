@@ -1,6 +1,6 @@
 ---
 title: Society of the Spectacle
-date: 2025-09-17
+date: 2025-09-19
 categories: [Philosophy, Society of the Spectacle]
 tags: [philosophy, guy debord, society of the spectacle]
 author: steve
