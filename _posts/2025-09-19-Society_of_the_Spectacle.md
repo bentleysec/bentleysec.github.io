@@ -9,7 +9,7 @@ mermaid: true
 ---
 
 ### What Is Society of the Spectacle?
-In 1967, French theorist and filmmaker Guy Debord published <a href="https://en.wikipedia.org/wiki/The_Society_of_the_Spectacle">**Society of the Spectacle**</a>, a slim but dense book that has since become a cornerstone of critical theory. Debord was a founding member of the Situationist International, a radical collective of artists, philosophers, and revolutionaries who sought to expose how modern life had become hollowed out by consumer culture and mass media.
+In 1967, French theorist and filmmaker Guy Debord published <a href="https://en.wikipedia.org/wiki/The_Society_of_the_Spectacle">**Society of the Spectacle**</a>, a slim but dense book that has since become a cornerstone of critical theory. Debord was a founding member of the <a href="https://en.wikipedia.org/wiki/Situationist_International">Situationist International</a>, a radical collective of artists, philosophers, and revolutionaries who sought to expose how modern life had become hollowed out by consumer culture and mass media.
 
 At the core of Debord’s argument is the idea of the **spectacle**. The spectacle is not just advertising, movies, or television, though these are its most visible forms. Instead, it is the entire system of images, narratives, and representations that mediate our experience of reality. In Debord’s words, the spectacle is *“a social relation among people, mediated by images.”*
 
