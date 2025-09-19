@@ -17,10 +17,10 @@ That means the spectacle is less about what we see on screens and more about how
 
 In a society dominated by the spectacle, **the appearance of life begins to replace lived experience itself.** We don’t simply eat, travel, or celebrate, we anticipate how those moments will be represented, shared, and consumed. Reality becomes increasingly filtered through images, until the image feels more real than reality.
 
-What does this have to do with Security you may be asking yourself, well, when reading Debord through the lens of technology and security, I see not only a critique of consumer culture, but also a warning about the architectures of digital control and distraction we navigate every day.
+What does this have to do with Security? You may be asking yourself. Well, when reading Debord through the lens of technology and security, I see not only a critique of consumer culture, but also a warning about the architectures of digital control and distraction we navigate every day.
 
 ### Security in the Spectacle
-In cybersecurity, we often talk about *visibility*: logs, alerts, dashboards. But Debord makes me wonder *how much of this “visibility” is itself a spectacle*? Dashboards are polished representations, compressing messy realities into tidy visuals. They give the impression of mastery, but often conceal as much as they reveal. Mastery is knowing what is behind the dashboard, what they numbers, charts, widgets represent.
+In cybersecurity, we often talk about *visibility*: logs, alerts, dashboards. But Debord makes me wonder *how much of this “visibility” is itself a spectacle*? Dashboards are polished representations, compressing messy realities into tidy visuals. They give the impression of mastery, but often conceal as much as they reveal. Mastery is knowing what is behind the dashboard, what the numbers, charts, widgets represent.
 
 The spectacle doesn’t just distort society, it distorts security. We chase flashy attacks while overlooking the slow, quiet compromises. We fixate on ransomware headlines while ignoring systemic weaknesses. We get consumed by the *image* of security, not its substance.
 
