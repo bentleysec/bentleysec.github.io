@@ -36,9 +36,9 @@ On Proxmox host
 cd /tmp
 wget https://github.com/prometheus/node_exporter/releases/download/vX/node_exporter-X.linux-amd64.tar.gz
 tar xvf node_exporter-X.linux-amd64.tar.gz
-sudo cp node_exporter-X.linux-amd64/node_exporter /usr/local/bin/
-sudo useradd --no-create-home --shell /bin/false node_exporter
-sudo chown node_exporter:node_exporter /usr/local/bin/node_exporter
+cp node_exporter-X.linux-amd64/node_exporter /usr/local/bin/
+useradd --no-create-home --shell /bin/false node_exporter
+chown node_exporter:node_exporter /usr/local/bin/node_exporter
 ```
 
 > Make sure to get the latest version from <a href="https://prometheus.io/download/#node_exporter">Prometheus</a>
@@ -67,10 +67,10 @@ WantedBy=multi-user.target
 #### 1.3 Start Node Exporter
 
 ``` bash
-sudo systemctl daemon-reload
-sudo systemctl start node_exporter
-sudo systemctl enable node_exporter
-sudo systemctl status node_exporter
+systemctl daemon-reload
+systemctl start node_exporter
+systemctl enable node_exporter
+systemctl status node_exporter
 ```
 
 #### 1.4 Verify It's Running
