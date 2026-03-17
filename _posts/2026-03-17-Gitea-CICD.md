@@ -162,6 +162,8 @@ The full repo structure looks like this:
 
 The `update-servers` workflow triggers manually via `workflow_dispatch`. You can target specific hosts, run in dry-run mode, or filter by tags all from the Gitea UI.
 
+#### workflows/update-servers.yml
+
 ```yaml
 name: Run Ansible Playbooks
 
@@ -254,6 +256,8 @@ Set these in your Gitea repository under **Settings → Actions → Secrets**:
 
 The container update workflow is nearly identical in structure, same SSH delegation pattern, different default playbook and inventory file.
 
+#### workflows/update-containers.yml
+
 ```yaml
 name: Run Ansible Playbooks
 
@@ -336,6 +340,8 @@ jobs:
 
 This playbook runs a full `dist-upgrade` across all Ubuntu VMs and reports whether a reboot is needed, without actually rebooting automatically (a deliberate choice for a homelab).
 
+#### playbooks/update-servers.yml
+
 ```yaml
 ---
 - name: Update Ubuntu Servers
@@ -388,6 +394,8 @@ A few things worth noting here:
 ## Ansible Playbook: Update Containers
 
 This playbook iterates over a list of Docker Compose projects defined in the host inventory, pulls fresh images, recreates containers, and then cleans up dangling images and volumes.
+
+#### playbooks/update-containers.yml
 
 ```yaml
 ---
