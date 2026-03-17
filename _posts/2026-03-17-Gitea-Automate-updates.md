@@ -1,3 +1,13 @@
+---
+title: Automating Homelab Updates with Gitea Actions and Ansible
+date: 2026-03-17
+categories: [Homelab, Automation]
+tags: [cybersecurity, automation, ansible, gitea, gitea-runner]
+author: steve
+description: A step-by-step guide to automating Ubuntu VM updates and Docker Compose container pulls in a self-hosted homelab using Gitea Actions, a Gitea runner, and Ansible playbooks.
+mermaid: true
+---
+
 # Automating Homelab Updates with Gitea Actions and Ansible
 
 Managing a homelab is a rewarding hobby, with lots to learn, until update day rolls around. Manually SSHing into each VM, running `apt upgrade`, pulling new Docker images, and cleaning up old containers gets old fast.
