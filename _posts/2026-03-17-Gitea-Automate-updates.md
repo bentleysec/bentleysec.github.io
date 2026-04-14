@@ -483,7 +483,13 @@ services:
       - /var/run/docker.sock:/var/run/docker.sock
 ```
 
-To get the registration token, in Gitea go to "**Site Administration → Actions → Runners**". Create a new runner and it will give you the Registration token, copy that and put it in the docker compose file above.
+To get the registration token, in Gitea go to "**Site Administration → Actions → Runners**". Create a new runner and it will give you the Registration token, copy that and put it in an `.env` file.
+
+To generate the runner `config.yaml` file, run this command:
+
+```bash
+docker run --entrypoint="" --rm -it docker.io/gitea/act_runner:latest act_runner generate-config > config.yaml
+```
 
 ---
 
