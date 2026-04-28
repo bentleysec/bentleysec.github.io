@@ -1,6 +1,6 @@
 ---
 title: Camus and the Absurdity of Patch Management
-date: 2026-05-01
+date: 2026-04-28
 categories: [Philosophy]
 tags: [philosophy, camus, absurdism, patch-management, cybersecurity]
 author: steve
