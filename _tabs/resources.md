@@ -21,7 +21,8 @@ order: 5
 
 ---
 
-## 📚 Awesome Lists {#awesome-lists}
+<span id="awesome-lists"></span>
+## 📚 Awesome Lists
 
 <div class="resource-section" id="awesome-lists-section">
 
@@ -94,7 +95,8 @@ order: 5
 
 ---
 
-## 🤖 AI Security {#ai-security}
+<span id="ai-security"></span>
+## 🤖 AI Security
 
 <div class="resource-section ai-section" id="ai-security-section">
 
@@ -145,7 +147,8 @@ order: 5
 
 ---
 
-## 🐳 Docker Images for Security {#docker-images}
+<span id="docker-images"></span>
+## 🐳 Docker Images for Security
 
 <div class="resource-section" id="docker-images-section">
 
@@ -188,7 +191,8 @@ order: 5
 
 ---
 
-## 🖥️ Self Hosting {#self-hosting}
+<span id="self-hosting"></span>
+## 🖥️ Self Hosting
 
 <div class="resource-section" id="self-hosting-section">
 <ul class="resource-list">
@@ -198,7 +202,8 @@ order: 5
 
 ---
 
-## 📖 Books {#books}
+<span id="books"></span>
+## 📖 Books
 
 <div class="resource-section" id="books-section">
 <p><em>Recommendations coming soon.</em></p>
@@ -206,7 +211,8 @@ order: 5
 
 ---
 
-## 🛠️ Tools {#tools}
+<span id="tools"></span>
+## 🛠️ Tools
 
 <div class="resource-section" id="tools-section">
 <p><em>Curated tooling list coming soon.</em></p>
