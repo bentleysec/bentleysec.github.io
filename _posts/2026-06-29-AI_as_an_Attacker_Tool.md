@@ -6,7 +6,7 @@ tags: [cybersecurity, artificial-intelligence, ai, series, threat-landscape, phi
 description: AI has handed attackers a significant upgrade — better phishing, automated reconnaissance, polymorphic malware, and a dramatically lower skill floor. Here's what that actually looks like in practice.
 ---
 
-*This is the second post in the AI and the Security Landscape series. If you missed the introduction, you can find it [here](/posts/ai-security-landscape-intro/).*
+*This is the second post in the AI and the Security Landscape series. If you missed the introduction, you can find it [here](https://bentleysec.com/posts/AI_and_the_Security_Landscape/).*
 
 ---
 
