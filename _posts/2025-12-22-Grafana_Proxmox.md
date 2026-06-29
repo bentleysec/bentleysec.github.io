@@ -1,7 +1,7 @@
 ---
 title: Monitoring Proxmox with Prometheus and Grafana
 date: 2025-12-22
-categories: [cybersecurity, monitoring, grafana, prometheus, proxmox, homelab]
+categories: [Cybersecurity, monitoring, grafana, prometheus, proxmox, homelab]
 tags: [homelab, monitoring]
 author: steve
 description: This guide walks you through setting up comprehensive monitoring for your Proxmox server and all its VMs using Prometheus and Grafana.
