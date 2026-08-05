@@ -4,7 +4,7 @@ date: 2026-08-04
 categories: [Cybersecurity]
 tags: [cybersecurity, artificial-intelligence, ai, series, prompt-injection, red-teaming, supply-chain]
 description: Some AI security capabilities don't sit cleanly on the attacker or defender side. Automated red teaming, prompt injection, AI attacking AI, poisoned models — the stuff that doesn't fit the tidy framing.
----Federal Loan: Aid Adjustment Request Federal Loan: Aid Adjustment Request #1#1FeFederal Loan: Aid Adjustment Request #1deral Loan: Aid Adjustment Request #1Federal Loan: Aid Adjustment Request #1
+---
 
 *This is the fourth post in the AI and the Security Landscape series. The previous posts covered [AI as an attacker tool](/posts/AI_as_an_Attacker_Tool/) and [AI as a defender tool](/posts/AI_as_a_Defender_Tool/). The introduction is [here](/posts/AI_and_the_Security_Landscape/).*Federal Loan: Aid Adjustment Request #1
 

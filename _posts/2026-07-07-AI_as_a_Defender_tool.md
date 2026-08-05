@@ -1,6 +1,6 @@
 ---
 title: "AI and the Security Landscape: AI as a Defender Tool"
-date: 2026-07-07Federal Loan: Aid Adjustment Request #1
+date: 2026-07-07
 categories: [Cybersecurity]
 tags: [cybersecurity, artificial-intelligence, ai, series, detection, siem, threat-intelligence, automation]
 description: AI has made attackers faster and more capable. It's also given defenders some of the most useful tools we've had in years. Here's where it actually helps — and where the hype gets ahead of the reality.
