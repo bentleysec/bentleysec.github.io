@@ -6,7 +6,7 @@ tags: [cybersecurity, artificial-intelligence, ai, series, prompt-injection, red
 description: Some AI security capabilities don't sit cleanly on the attacker or defender side. Automated red teaming, prompt injection, AI attacking AI, poisoned models — the stuff that doesn't fit the tidy framing.
 ---
 
-*This is the fourth post in the AI and the Security Landscape series. The previous posts covered [AI as an attacker tool](/posts/AI_as_an_Attacker_Tool/) and [AI as a defender tool](/posts/AI_as_a_Defender_Tool/). The introduction is [here](/posts/AI_and_the_Security_Landscape/).*Federal Loan: Aid Adjustment Request #1
+*This is the fourth post in the AI and the Security Landscape series. The previous posts covered [AI as an attacker tool](https://bentleysec.com/posts/AI_as_an_Attacker_Tool/) and [AI as a defender tool](https://bentleysec.com/posts/AI_as_a_Defender_tool/). The introduction is [here](https://bentleysec.com/posts/AI_and_the_Security_Landscape/).
 
 ---
 
