@@ -115,6 +115,9 @@ order: 5
 <li><a href="https://github.com/cleverhans-lab/cleverhans" target="_blank">CleverHans</a> — A Python library to benchmark ML model vulnerability to adversarial examples.</li>
 <li><a href="https://github.com/QData/TextAttack" target="_blank">TextAttack</a> — A framework for adversarial attacks, data augmentation, and adversarial training in NLP.</li>
 <li><a href="https://github.com/microsoft/promptbench" target="_blank">PromptBench</a> — Microsoft's unified library for evaluating and benchmarking LLM robustness against adversarial prompts.</li>
+<li><a href="https://github.com/Azure/counterfit" target="_blank">Counterfit</a> — Microsoft's automation layer for assessing the security of ML systems across multiple attack types.</li>
+<li><a href="https://github.com/cyberark/FuzzyAI" target="_blank">FuzzyAI</a> — CyberArk's automated LLM fuzzer for surfacing jailbreaks and injection weaknesses in model APIs.</li>
+<li><a href="https://github.com/utkusen/promptmap" target="_blank">promptmap</a> — A prompt-injection scanner aimed at custom LLM applications.</li>
 </ul>
 </div>
 
@@ -130,6 +133,8 @@ order: 5
 <li><a href="https://github.com/mlflow/mlflow" target="_blank">MLflow</a> — Open source platform for ML lifecycle management including experiment tracking, model registry, and monitoring for drift.</li>
 <li><a href="https://github.com/evidentlyai/evidently" target="_blank">Evidently AI</a> — Open source ML and LLM observability framework. Monitors model performance, data drift, and output quality over time.</li>
 <li><a href="https://github.com/guardrails-ai/guardrails" target="_blank">Guardrails AI</a> — Open source framework for adding structural, type, and quality constraints to LLM outputs.</li>
+<li><a href="https://github.com/meta-llama/PurpleLlama" target="_blank">Purple Llama</a> — Meta's suite of LLM safety tools, including Llama Guard, Prompt Guard, Code Shield, and CyberSecEval.</li>
+<li><a href="https://github.com/meta-llama/PurpleLlama/tree/main/LlamaFirewall" target="_blank">LlamaFirewall</a> — A framework for detecting and mitigating security risks across multi-step agentic operations.</li>
 </ul>
 </div>
 
@@ -144,6 +149,72 @@ order: 5
 <li><a href="https://github.com/homakov/awesome-ml-privacy" target="_blank">Awesome ML Privacy</a> — Resources on privacy in machine learning: membership inference, model inversion, differential privacy, and federated learning.</li>
 <li><a href="https://github.com/RicardoGeffrard/ai-red-team-exercises" target="_blank">AI Red Team Exercises</a> — Practical exercises and lab scenarios for hands-on adversarial AI testing and red team practice.</li>
 <li><a href="https://www.nist.gov/itl/ai-risk-management-framework" target="_blank">NIST AI RMF</a> — The framework to anchor an AI security and governance program around.</li>
+</ul>
+</div>
+
+<div class="resource-subsection">
+<h3>🏛️ Governance, Standards & Frameworks</h3>
+<p class="subsection-desc">Standards, control frameworks, and risk taxonomies for building and auditing an AI security program.</p>
+<ul class="resource-list">
+<li><a href="https://github.com/OWASP/AISVS" target="_blank">OWASP AI Security Verification Standard (AISVS)</a> — A structured set of verifiable security requirements for AI applications, in the spirit of ASVS.</li>
+<li><a href="https://genai.owasp.org/resource/llm-applications-cybersecurity-and-governance-checklist-english/" target="_blank">OWASP LLM Cybersecurity & Governance Checklist</a> — A practical checklist for standing up governance around LLM adoption.</li>
+<li><a href="https://owasp.org/www-project-ai-security-and-privacy-guide/" target="_blank">OWASP AI Security & Privacy Guide</a> — Guidance on securing AI systems and protecting privacy across the lifecycle.</li>
+<li><a href="https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-2e2025.pdf" target="_blank">NIST Adversarial ML Taxonomy (AI 100-2)</a> — Standardized terminology and mitigations for attacks on ML systems.</li>
+<li><a href="https://www.iso.org/standard/81230.html" target="_blank">ISO/IEC 42001</a> — The management-system standard for AI, useful when mapping AI governance to formal audit programs.</li>
+<li><a href="https://saif.google/" target="_blank">Google Secure AI Framework (SAIF)</a> — Google's practitioner framework for securing AI systems end to end.</li>
+<li><a href="https://cloudsecurityalliance.org/artifacts/ai-controls-matrix" target="_blank">CSA AI Controls Matrix</a> — A controls matrix for AI covering governance, risk, and compliance.</li>
+<li><a href="https://incidentdatabase.ai/" target="_blank">AI Incident Database</a> — A searchable record of real-world AI harms and failures — useful for threat modeling.</li>
+<li><a href="https://avidml.org/" target="_blank">AVID</a> — The AI Vulnerability Database: an open taxonomy and knowledge base of model failures.</li>
+</ul>
+</div>
+
+<div class="resource-subsection">
+<h3>🔌 MCP & Agent Security</h3>
+<p class="subsection-desc">Tooling and references for securing Model Context Protocol servers, connectors, and agentic workflows.</p>
+<ul class="resource-list">
+<li><a href="https://github.com/Puliczek/awesome-mcp-security" target="_blank">Awesome MCP Security</a> — A dedicated running list of everything MCP security — attacks, defenses, and tooling.</li>
+<li><a href="https://github.com/invariantlabs-ai/mcp-scan" target="_blank">MCP-Scan</a> — A security scanner for MCP servers that flags tool poisoning, prompt injection, and risky configurations.</li>
+<li><a href="https://github.com/trailofbits/mcp-context-protector" target="_blank">mcp-context-protector</a> — Trail of Bits' security wrapper for MCP servers, guarding against line-jumping and config-change attacks.</li>
+<li><a href="https://github.com/eqtylab/mcp-guardian" target="_blank">MCP Guardian</a> — Real-time control and mediation of an assistant's access to MCP servers.</li>
+<li><a href="https://github.com/enkryptai/secure-mcp-gateway" target="_blank">Secure MCP Gateway</a> — An MCP gateway with authentication, tool discovery, and guardrail enforcement.</li>
+<li><a href="https://github.com/slowmist/MCP-Security-Checklist" target="_blank">MCP Security Checklist</a> — SlowMist's checklist for hardening MCP-based tools and plugin ecosystems.</li>
+<li><a href="https://github.com/splx-ai/agentic-radar" target="_blank">Agentic Radar</a> — A CLI scanner that maps and analyzes agentic workflows for security weaknesses.</li>
+</ul>
+</div>
+
+<div class="resource-subsection">
+<h3>🔍 Model & Supply-Chain Scanning</h3>
+<p class="subsection-desc">Scanners for model artifacts, serialized files, and AI bills of materials.</p>
+<ul class="resource-list">
+<li><a href="https://github.com/protectai/modelscan" target="_blank">ModelScan</a> — Protect AI's scanner for detecting unsafe code embedded in serialized model files.</li>
+<li><a href="https://github.com/mmaitre314/picklescan" target="_blank">picklescan</a> — Detects Python pickle files that perform suspicious actions on load.</li>
+<li><a href="https://github.com/trailofbits/fickling" target="_blank">fickling</a> — Trail of Bits' pickle decompiler and static analyzer for inspecting untrusted model files.</li>
+<li><a href="https://github.com/OWASP/www-project-aibom" target="_blank">OWASP AIBOM</a> — The AI Bill of Materials project for inventorying models, data, and dependencies.</li>
+</ul>
+</div>
+
+<div class="resource-subsection">
+<h3>🧪 Labs, CTFs & Practice</h3>
+<p class="subsection-desc">Intentionally vulnerable apps and challenges for hands-on AI security practice.</p>
+<ul class="resource-list">
+<li><a href="https://github.com/dhammon/ai-goat" target="_blank">AI Goat</a> — A deliberately vulnerable LLM app with challenges mapped to the OWASP LLM Top 10.</li>
+<li><a href="https://github.com/harishsg993010/damn-vulnerable-MCP-server" target="_blank">Damn Vulnerable MCP Server</a> — An intentionally insecure MCP server for learning to attack and defend the protocol.</li>
+<li><a href="https://github.com/ReversecLabs/damn-vulnerable-llm-agent" target="_blank">Damn Vulnerable LLM Agent</a> — A vulnerable agent for practicing prompt injection, tool misuse, and agent attacks.</li>
+<li><a href="https://github.com/microsoft/AI-Red-Teaming-Playground-Labs" target="_blank">AI Red Teaming Playground Labs</a> — Microsoft's runnable labs and infrastructure for AI red-team training.</li>
+<li><a href="https://gandalf.lakera.ai/" target="_blank">Gandalf</a> — Lakera's browser-based prompt injection game — the gentlest possible intro to the problem.</li>
+</ul>
+</div>
+
+<div class="resource-subsection">
+<h3>📡 Communities, Podcasts & Lists</h3>
+<p class="subsection-desc">Places to keep current, plus the curated lists these resources were drawn from.</p>
+<ul class="resource-list">
+<li><a href="https://genai.owasp.org/" target="_blank">OWASP GenAI Security Project</a> — The hub for the LLM Top 10, agentic AI guidance, red-teaming guides, and more.</li>
+<li><a href="https://aivillage.org/" target="_blank">AI Village</a> — The DEF CON community behind much of the public AI red-teaming work.</li>
+<li><a href="https://mlsecops.com/podcast" target="_blank">MLSecOps Podcast</a> — Interviews and discussion on securing the ML lifecycle.</li>
+<li><a href="https://github.com/ottosulin/awesome-ai-security" target="_blank">ottosulin/awesome-ai-security</a> — A broad, well-maintained list spanning governance, red teaming, MCP, and defense.</li>
+<li><a href="https://github.com/muellerberndt/awesome-ai-security" target="_blank">muellerberndt/awesome-ai-security</a> — An annotated learning-journey list with a strong papers and fundamentals track.</li>
+<li><a href="https://github.com/AmanPriyanshu/Awesome-AI-For-Security" target="_blank">AmanPriyanshu/Awesome-AI-For-Security</a> — Focused on applying LLMs and agents to security operations, with models and datasets.</li>
 </ul>
 </div>
 
