@@ -1,6 +1,6 @@
 ---
 title: "AI and the Security Landscape: The Bigger Picture"
-date: 2026-08-18
+date: 2026-08-24
 categories: [Cybersecurity, AI]
 tags: [cybersecurity, artificial-intelligence, ai, series, future, governance, careers]
 description: The final post in the series. Where AI and security are heading, what it might mean for the profession, and how to think clearly about a future none of us can actually predict.
