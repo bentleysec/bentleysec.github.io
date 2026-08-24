@@ -1,7 +1,7 @@
 ---
 title: "AI and the Security Landscape: The Murky Middle"
 date: 2026-08-04
-categories: [Cybersecurity]
+categories: [Cybersecurity, AI]
 tags: [cybersecurity, artificial-intelligence, ai, series, prompt-injection, red-teaming, supply-chain]
 description: Some AI security capabilities don't sit cleanly on the attacker or defender side. Automated red teaming, prompt injection, AI attacking AI, poisoned models — the stuff that doesn't fit the tidy framing.
 ---

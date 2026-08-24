@@ -1,7 +1,7 @@
 ---
 title: "AI and the Security Landscape: AI as an Attacker Tool"
 date: 2026-06-09
-categories: [Cybersecurity]
+categories: [Cybersecurity, AI]
 tags: [cybersecurity, artificial-intelligence, ai, series, threat-landscape, phishing, malware, deepfakes]
 description: AI has handed attackers a significant upgrade — better phishing, automated reconnaissance, polymorphic malware, and a dramatically lower skill floor. Here's what that actually looks like in practice.
 ---

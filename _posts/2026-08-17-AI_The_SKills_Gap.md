@@ -1,7 +1,7 @@
 ---
 title: "AI and the Security Landscape: The Skills Gap"
 date: 2026-08-17
-categories: [Cybersecurity]
+categories: [Cybersecurity, AI]
 tags: [cybersecurity, artificial-intelligence, ai, series, skills, careers, learning]
 description: AI didn't create the security skills gap, but it reshaped it. Here's what practitioners actually need to know now, what they don't, and how to keep up without setting yourself on fire.
 ---

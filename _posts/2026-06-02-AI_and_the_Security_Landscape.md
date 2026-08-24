@@ -1,7 +1,7 @@
 ---
 title: "AI and the Security Landscape: An Introduction"
 date: 2026-06-02
-categories: [Cybersecurity]
+categories: [Cybersecurity, AI]
 tags: [cybersecurity, artificial-intelligence, ai, series, threat-landscape]
 description: AI is changing security faster than most of us can comfortably track. This is the start of a series where I try to think through what that actually means — honestly, practically, and without the hype.
 ---

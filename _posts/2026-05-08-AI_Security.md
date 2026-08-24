@@ -1,7 +1,7 @@
 ---
 title: "The New Frontier Artificial Intelligence and the Future of Security"
 date: 2026-05-08
-categories: [Cybersecurity]
+categories: [Cybersecurity, AI]
 tags: [cybersecurity, artificial-intelligence, ai, machine-learning, threat-detection, future]
 description: AI is reshaping cybersecurity from both sides of the battle line — as a weapon in attackers' hands and a force multiplier for defenders. Here's what it means, why it matters, and how to not get left behind.
 ---
