@@ -1,7 +1,7 @@
 ---
 title: "A New AI Resources Page"
 date: 2026-08-25
-categories: [Cybersecurity]
+categories: [AI]
 tags: [ai, artificial-intelligence, resources, tools]
 description: I've added a curated AI Resources page to the site. A mix of the general-purpose AI tools I actually use and the security angle I can't help bringing to everything.
 ---
