@@ -8,7 +8,7 @@ A curated set of AI tools I actually find useful, plus the pointers that keep th
 
 A standing caveat, because it matters: don't paste anything personal, confidential, or work-sensitive into a cloud AI you don't control. Most of them log prompts, and many train on them. If the data is sensitive, run a model locally. That principle shapes a lot of what's recommended here.
 
-[🤖 Chatbots](#chatbots) [🏠 Local & Self-Hosted](#local-self-hosted) [🖼️ Image](#image-generation) [🎬 Video](#video-generation) [🔊 Audio & Voice](#audio-voice) [💻 Coding](#coding-assistants) [🔎 AI Search & Research](#search-research) [✍️ Prompting](#prompting) [📊 Benchmarks & Indexes](#benchmarks-indexes) [🛡️ Security Angle](#security-angle)
+[🤖 Chatbots](https://bentleysec.com/ai-resources#chatbots) [🏠 Local & Self-Hosted](https://bentleysec.com/ai-resources#local-self-hosted) [🖼️ Image](https://bentleysec.com/ai-resources#image-generation) [🎬 Video](https://bentleysec.com/ai-resources#video-generation) [🔊 Audio & Voice](https://bentleysec.com/ai-resources#audio-voice) [💻 Coding](https://bentleysec.com/ai-resources#coding-assistants) [🔎 AI Search & Research](https://bentleysec.com/ai-resources#search-research) [✍️ Prompting](https://bentleysec.com/ai-resources#prompting) [📊 Benchmarks & Indexes](https://bentleysec.com/ai-resources#benchmarks-indexes) [🛡️ Security Angle](https://bentleysec.com/ai-resources#security-angle)
  
 --- ## 🤖 Chatbots
  
