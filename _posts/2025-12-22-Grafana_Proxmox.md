@@ -179,35 +179,43 @@ sudo systemctl enable node_exporter
 sudo systemctl status node_exporter
 ```
 
-#### 3.3  Install Proxmox VE Exporter
+#### 3.3 Install Proxmox VE Exporter
 
 Install Dependencies
+
 ```bash
 sudo apt update
-sudo apt install -y python3-pip python3-venv
+sudo apt install -y python3-venv
 ```
 
 Install PVE Exporter
+
+Newer Debian and Ubuntu releases block `pip install` into the system Python (PEP 668), and even where it works, a distro upgrade that bumps the Python version will leave the exporter unable to find its own module. Installing it into a dedicated virtual environment avoids both problems.
+
 ```bash
-sudo pip3 install prometheus-pve-exporter
+sudo python3 -m venv /opt/pve_exporter
+sudo /opt/pve_exporter/bin/pip install prometheus-pve-exporter
 ```
+
+> If a future OS upgrade breaks the exporter with `ModuleNotFoundError: No module named 'pve_exporter'`, delete `/opt/pve_exporter` and rerun the two commands above.
+{: .prompt-tip }
 
 Create Configuration File
 
 Create `/etc/prometheus/pve.yml`
+
 ```yaml
 default:
   user: prometheus@pve
   password: your_password_here
-  # Replace with your Proxmox host IP or hostname
-  target: https://192.168.1.100:8006
   verify_ssl: false
 ```
 
-> Important: Replace `your_password_here` with the password you set for the `prometheus@pve` user, and replace `192.168.1.100` with your actual Proxmox host IP address.
-{: .prompt-info }
+> Important: Replace `your_password_here` with the password you set for the `prometheus@pve` user. The Proxmox host address does not go in this file. Prometheus passes it to the exporter as the `target` parameter (see section 3.4).
+{: .prompt-warning }
 
 Set Permissions
+
 ```bash
 sudo chown prometheus:prometheus /etc/prometheus/pve.yml
 sudo chmod 600 /etc/prometheus/pve.yml
@@ -216,6 +224,7 @@ sudo chmod 600 /etc/prometheus/pve.yml
 Create Systemd Service for PVE Exporter
 
 Create `/etc/systemd/system/pve_exporter.service`:
+
 ```ini
 [Unit]
 Description=Proxmox VE Exporter
@@ -224,14 +233,18 @@ After=network.target
 [Service]
 Type=simple
 User=prometheus
-ExecStart=/usr/local/bin/pve_exporter /etc/prometheus/pve.yml
+ExecStart=/opt/pve_exporter/bin/pve_exporter --config.file /etc/prometheus/pve.yml
 Restart=on-failure
 
 [Install]
 WantedBy=multi-user.target
 ```
 
+> Version 3.x of the exporter takes the config path through `--config.file`. Older guides (including an earlier version of this one) pass it as a bare argument, which fails on current releases.
+{: .prompt-info }
+
 Start PVE Exporter
+
 ```bash
 sudo systemctl daemon-reload
 sudo systemctl start pve_exporter
@@ -240,12 +253,20 @@ sudo systemctl status pve_exporter
 ```
 
 Verify It's Working
+
 ```bash
-curl http://localhost:9221/pve
+curl "http://localhost:9221/pve?target=192.168.1.100"
 ```
 
-You should see Proxmox metrics. If you get connection errors, check:
-- The Proxmox host IP in `/etc/prometheus/pve.yml` is correct
+Replace `192.168.1.100` with your Proxmox host IP. You should see Proxmox metrics. If the service fails to start, run it in the foreground to see the actual error:
+
+```bash
+sudo -u prometheus /opt/pve_exporter/bin/pve_exporter --config.file /etc/prometheus/pve.yml
+```
+
+If you get connection errors, check:
+
+- The Proxmox host IP in the `target` parameter is correct
 - The monitoring VM can reach the Proxmox host on port 8006
 - The `prometheus@pve` user credentials are correct
 
@@ -444,7 +465,7 @@ curl http://localhost:9221/metrics  # PVE Exporter
 ```
 
 #### 5.2 Check Prometheus Targets
-Go to `http://your-proxmox-ip:9090/targets` and verify all targets show as "UP"
+Go to `http://monitoring-vm-ip:9090/targets` and verify all targets show as "UP"
 
 #### 5.3 Test Queries in Prometheus
 Try these queries in Prometheus:
@@ -492,7 +513,7 @@ sudo journalctl -u pve_exporter -f
 Proxmox Host Commands
 ```bash
 # Check node_exporter
-sudo systemctl status node_exporter
+systemctl status node_exporter
 
 # View metrics
 curl http://localhost:9100/metrics
